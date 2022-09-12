@@ -8,7 +8,7 @@ describe("Successfully request for a product", () => {
     await browser.sauceLogout();
   });
 
-  it.describe("Should complete product order", async () => {
-    await browser.pause(3000);
+  it("Should complete product order", async () => {
+    await browser.pause(300);
   });
 });
