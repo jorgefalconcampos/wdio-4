@@ -1,4 +1,4 @@
-describe("Search Feature", () => {
+describe.skip("Search Feature", () => {
   it("Should search for valus using keyboard press", async () => {
     await await browser.url("http://zero.webappsecurity.com/index.html");
     await (await $("#searchTerm")).waitForDisplayed();
